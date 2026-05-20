@@ -1,0 +1,490 @@
+[gd_scene format=3 uid="uid://bwom66byidh1y"]
+
+[ext_resource type="PackedScene" uid="uid://brkm5udn5pp7j" path="res://pin.tscn" id="1_0xm2m"]
+[ext_resource type="Script" uid="uid://boxvgdhw3ac5c" path="res://main.gd" id="1_h2yge"]
+[ext_resource type="PackedScene" uid="uid://eilx8c35e5bb" path="res://ball.tscn" id="2_h2yge"]
+[ext_resource type="Texture2D" uid="uid://dlrwvw8y437ma" path="res://assets/sprites/boxing_glove.png" id="4_1bvp3"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lquwl"]
+size = Vector2(1168, 8)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1bvp3"]
+size = Vector2(12, 651)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_h2yge"]
+size = Vector2(12, 651)
+
+[node name="Main" type="Node" unique_id=820991917]
+script = ExtResource("1_h2yge")
+ball_scene = ExtResource("2_h2yge")
+
+[node name="Pins" type="Node2D" parent="." unique_id=1759195855]
+position = Vector2(0, 32)
+
+[node name="Row7" type="Node2D" parent="Pins" unique_id=1878794817 groups=["Pins"]]
+position = Vector2(0, 128)
+
+[node name="Pin3" parent="Pins/Row7" unique_id=315524844 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(160, 128)
+
+[node name="Pin" parent="Pins/Row7" unique_id=1339388794 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(96, 128)
+
+[node name="Pin2" parent="Pins/Row7" unique_id=142262705 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(32, 128)
+
+[node name="Pin4" parent="Pins/Row7" unique_id=128521686 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(224, 128)
+
+[node name="Pin5" parent="Pins/Row7" unique_id=1922025764 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(288, 128)
+
+[node name="Pin7" parent="Pins/Row7" unique_id=86514775 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(544, 128)
+
+[node name="Pin8" parent="Pins/Row7" unique_id=164125012 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(480, 128)
+
+[node name="Pin9" parent="Pins/Row7" unique_id=1108778759 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(416, 128)
+
+[node name="Pin10" parent="Pins/Row7" unique_id=436482782 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(608, 128)
+
+[node name="Pin11" parent="Pins/Row7" unique_id=1639180275 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(672, 128)
+
+[node name="Pin13" parent="Pins/Row7" unique_id=130354416 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(928, 128)
+
+[node name="Pin14" parent="Pins/Row7" unique_id=1880933512 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(864, 128)
+
+[node name="Pin15" parent="Pins/Row7" unique_id=1452536129 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(800, 128)
+
+[node name="Pin16" parent="Pins/Row7" unique_id=349543535 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(992, 128)
+
+[node name="Pin19" parent="Pins/Row7" unique_id=550015017 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(1120, 128)
+
+[node name="Pin17" parent="Pins/Row7" unique_id=1512912427 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(1056, 129)
+
+[node name="Pin12" parent="Pins/Row7" unique_id=1681307089 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(736, 128)
+
+[node name="Pin6" parent="Pins/Row7" unique_id=317861814 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(352, 128)
+
+[node name="Row6" type="Node2D" parent="Pins" unique_id=1005731503 groups=["Pins"]]
+position = Vector2(0, 384)
+metadata/_edit_group_ = true
+
+[node name="Pin3" parent="Pins/Row6" unique_id=1678340589 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(192, 64)
+
+[node name="Pin" parent="Pins/Row6" unique_id=429061517 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(128, 64)
+
+[node name="Pin2" parent="Pins/Row6" unique_id=407419631 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(64, 64)
+
+[node name="Pin4" parent="Pins/Row6" unique_id=745799243 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(256, 64)
+
+[node name="Pin5" parent="Pins/Row6" unique_id=87593146 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(320, 64)
+
+[node name="Pin7" parent="Pins/Row6" unique_id=1554622318 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(576, 64)
+
+[node name="Pin8" parent="Pins/Row6" unique_id=324752548 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(512, 64)
+
+[node name="Pin9" parent="Pins/Row6" unique_id=784301724 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(448, 64)
+
+[node name="Pin10" parent="Pins/Row6" unique_id=1058137997 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(640, 64)
+
+[node name="Pin11" parent="Pins/Row6" unique_id=198357434 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(704, 64)
+
+[node name="Pin13" parent="Pins/Row6" unique_id=644652894 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(960, 64)
+
+[node name="Pin14" parent="Pins/Row6" unique_id=1007277160 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(896, 64)
+
+[node name="Pin15" parent="Pins/Row6" unique_id=520093479 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(832, 64)
+
+[node name="Pin16" parent="Pins/Row6" unique_id=746736113 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(1024, 64)
+
+[node name="Pin17" parent="Pins/Row6" unique_id=750896974 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(1088, 64)
+
+[node name="Pin12" parent="Pins/Row6" unique_id=1068999677 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(768, 64)
+
+[node name="Pin6" parent="Pins/Row6" unique_id=23702255 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(384, 64)
+
+[node name="Row4" type="Node2D" parent="Pins" unique_id=108885867 groups=["Pins"]]
+position = Vector2(0, 256)
+
+[node name="Pin3" parent="Pins/Row4" unique_id=2025841809 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(192, 64)
+
+[node name="Pin" parent="Pins/Row4" unique_id=903590892 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(128, 64)
+
+[node name="Pin2" parent="Pins/Row4" unique_id=475777679 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(64, 64)
+
+[node name="Pin4" parent="Pins/Row4" unique_id=143098263 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(256, 64)
+
+[node name="Pin5" parent="Pins/Row4" unique_id=626372207 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(320, 64)
+
+[node name="Pin7" parent="Pins/Row4" unique_id=23597205 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(576, 64)
+
+[node name="Pin8" parent="Pins/Row4" unique_id=966826268 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(512, 64)
+
+[node name="Pin9" parent="Pins/Row4" unique_id=372798986 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(448, 64)
+
+[node name="Pin10" parent="Pins/Row4" unique_id=896118092 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(640, 64)
+
+[node name="Pin11" parent="Pins/Row4" unique_id=1800058054 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(704, 64)
+
+[node name="Pin13" parent="Pins/Row4" unique_id=152990567 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(960, 64)
+
+[node name="Pin14" parent="Pins/Row4" unique_id=757555096 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(896, 64)
+
+[node name="Pin15" parent="Pins/Row4" unique_id=1317007614 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(832, 64)
+
+[node name="Pin16" parent="Pins/Row4" unique_id=1709046389 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(1024, 64)
+
+[node name="Pin17" parent="Pins/Row4" unique_id=640901222 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(1088, 64)
+
+[node name="Pin12" parent="Pins/Row4" unique_id=356929955 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(768, 64)
+
+[node name="Pin6" parent="Pins/Row4" unique_id=425863223 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(384, 64)
+
+[node name="Row8" type="Node2D" parent="Pins" unique_id=584214138 groups=["Pins"]]
+position = Vector2(0, 384)
+
+[node name="Pin3" parent="Pins/Row8" unique_id=581275846 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(160, 128)
+
+[node name="Pin" parent="Pins/Row8" unique_id=518732272 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(96, 128)
+
+[node name="Pin2" parent="Pins/Row8" unique_id=798786236 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(32, 128)
+
+[node name="Pin4" parent="Pins/Row8" unique_id=1695716585 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(224, 128)
+
+[node name="Pin5" parent="Pins/Row8" unique_id=1049825613 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(288, 128)
+
+[node name="Pin7" parent="Pins/Row8" unique_id=1962503946 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(544, 128)
+
+[node name="Pin8" parent="Pins/Row8" unique_id=828453024 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(480, 128)
+
+[node name="Pin9" parent="Pins/Row8" unique_id=780414398 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(416, 128)
+
+[node name="Pin10" parent="Pins/Row8" unique_id=379933664 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(608, 128)
+
+[node name="Pin11" parent="Pins/Row8" unique_id=522081532 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(672, 128)
+
+[node name="Pin13" parent="Pins/Row8" unique_id=460224843 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(928, 128)
+
+[node name="Pin14" parent="Pins/Row8" unique_id=1681163166 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(864, 128)
+
+[node name="Pin15" parent="Pins/Row8" unique_id=1428894199 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(800, 128)
+
+[node name="Pin16" parent="Pins/Row8" unique_id=1295340275 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(992, 128)
+
+[node name="Pin19" parent="Pins/Row8" unique_id=1454853349 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(1120, 128)
+
+[node name="Pin17" parent="Pins/Row8" unique_id=568593605 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(1056, 129)
+
+[node name="Pin12" parent="Pins/Row8" unique_id=391555910 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(736, 128)
+
+[node name="Pin6" parent="Pins/Row8" unique_id=2085633536 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(352, 128)
+
+[node name="Row5" type="Node2D" parent="Pins" unique_id=595025254 groups=["Pins"]]
+position = Vector2(0, 256)
+
+[node name="Pin3" parent="Pins/Row5" unique_id=665286272 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(160, 128)
+
+[node name="Pin" parent="Pins/Row5" unique_id=839177923 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(96, 128)
+
+[node name="Pin2" parent="Pins/Row5" unique_id=747645094 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(32, 128)
+
+[node name="Pin4" parent="Pins/Row5" unique_id=2044456494 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(224, 128)
+
+[node name="Pin5" parent="Pins/Row5" unique_id=520196549 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(288, 128)
+
+[node name="Pin7" parent="Pins/Row5" unique_id=908493200 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(544, 128)
+
+[node name="Pin8" parent="Pins/Row5" unique_id=1550315941 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(480, 128)
+
+[node name="Pin9" parent="Pins/Row5" unique_id=1687944240 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(416, 128)
+
+[node name="Pin10" parent="Pins/Row5" unique_id=1433064403 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(608, 128)
+
+[node name="Pin11" parent="Pins/Row5" unique_id=1640233415 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(672, 128)
+
+[node name="Pin13" parent="Pins/Row5" unique_id=687619494 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(928, 128)
+
+[node name="Pin14" parent="Pins/Row5" unique_id=1587006945 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(864, 128)
+
+[node name="Pin15" parent="Pins/Row5" unique_id=970711171 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(800, 128)
+
+[node name="Pin16" parent="Pins/Row5" unique_id=1126489128 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(992, 128)
+
+[node name="Pin19" parent="Pins/Row5" unique_id=739355143 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(1120, 128)
+
+[node name="Pin17" parent="Pins/Row5" unique_id=1862862695 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(1056, 129)
+
+[node name="Pin12" parent="Pins/Row5" unique_id=1359770074 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(736, 128)
+
+[node name="Pin6" parent="Pins/Row5" unique_id=1329634353 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(352, 128)
+
+[node name="Row3" type="Node2D" parent="Pins" unique_id=1015196654 groups=["Pins"]]
+
+[node name="Pin3" parent="Pins/Row3" unique_id=921996433 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(192, 64)
+
+[node name="Pin" parent="Pins/Row3" unique_id=2137668169 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(128, 64)
+
+[node name="Pin2" parent="Pins/Row3" unique_id=517187541 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(64, 64)
+
+[node name="Pin4" parent="Pins/Row3" unique_id=470180518 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(256, 64)
+
+[node name="Pin5" parent="Pins/Row3" unique_id=1900704209 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(320, 64)
+
+[node name="Pin7" parent="Pins/Row3" unique_id=1265941503 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(576, 64)
+
+[node name="Pin8" parent="Pins/Row3" unique_id=1651199649 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(512, 64)
+
+[node name="Pin9" parent="Pins/Row3" unique_id=1582155391 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(448, 64)
+
+[node name="Pin10" parent="Pins/Row3" unique_id=1888431741 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(640, 64)
+
+[node name="Pin11" parent="Pins/Row3" unique_id=1192892870 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(704, 64)
+
+[node name="Pin13" parent="Pins/Row3" unique_id=458635088 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(960, 64)
+
+[node name="Pin14" parent="Pins/Row3" unique_id=2020607126 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(896, 64)
+
+[node name="Pin15" parent="Pins/Row3" unique_id=1561958782 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(832, 64)
+
+[node name="Pin16" parent="Pins/Row3" unique_id=769216842 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(1024, 64)
+
+[node name="Pin17" parent="Pins/Row3" unique_id=426113061 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(1088, 64)
+
+[node name="Pin12" parent="Pins/Row3" unique_id=1736817621 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(768, 64)
+
+[node name="Pin6" parent="Pins/Row3" unique_id=681265103 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(384, 64)
+
+[node name="Row2" type="Node2D" parent="Pins" unique_id=1593566451 groups=["Pins"]]
+
+[node name="Pin3" parent="Pins/Row2" unique_id=1251787649 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(160, 128)
+
+[node name="Pin" parent="Pins/Row2" unique_id=1051611050 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(96, 128)
+
+[node name="Pin2" parent="Pins/Row2" unique_id=473059838 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(32, 128)
+
+[node name="Pin4" parent="Pins/Row2" unique_id=256131023 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(224, 128)
+
+[node name="Pin5" parent="Pins/Row2" unique_id=465695901 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(288, 128)
+
+[node name="Pin7" parent="Pins/Row2" unique_id=1866523562 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(544, 128)
+
+[node name="Pin8" parent="Pins/Row2" unique_id=719540189 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(480, 128)
+
+[node name="Pin9" parent="Pins/Row2" unique_id=2009368671 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(416, 128)
+
+[node name="Pin10" parent="Pins/Row2" unique_id=1920354031 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(608, 128)
+
+[node name="Pin11" parent="Pins/Row2" unique_id=1304532824 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(672, 128)
+
+[node name="Pin13" parent="Pins/Row2" unique_id=1980281160 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(928, 128)
+
+[node name="Pin14" parent="Pins/Row2" unique_id=2034733849 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(864, 128)
+
+[node name="Pin15" parent="Pins/Row2" unique_id=695413302 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(800, 128)
+
+[node name="Pin16" parent="Pins/Row2" unique_id=1480907258 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(992, 128)
+
+[node name="Pin19" parent="Pins/Row2" unique_id=117760078 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(1120, 128)
+
+[node name="Pin17" parent="Pins/Row2" unique_id=508901835 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(1056, 129)
+
+[node name="Pin12" parent="Pins/Row2" unique_id=1172885477 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(736, 128)
+
+[node name="Pin6" parent="Pins/Row2" unique_id=664460178 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(352, 128)
+
+[node name="Row1" type="Node2D" parent="Pins" unique_id=461830032 groups=["Pins"]]
+position = Vector2(0, 128)
+metadata/_edit_group_ = true
+
+[node name="Pin3" parent="Pins/Row1" unique_id=1468616163 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(192, 64)
+
+[node name="Pin" parent="Pins/Row1" unique_id=278202664 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(128, 64)
+
+[node name="Pin2" parent="Pins/Row1" unique_id=1184704863 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(64, 64)
+
+[node name="Pin4" parent="Pins/Row1" unique_id=115261707 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(256, 64)
+
+[node name="Pin5" parent="Pins/Row1" unique_id=964497952 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(320, 64)
+
+[node name="Pin7" parent="Pins/Row1" unique_id=1265047772 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(576, 64)
+
+[node name="Pin8" parent="Pins/Row1" unique_id=739454117 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(512, 64)
+
+[node name="Pin9" parent="Pins/Row1" unique_id=1574510130 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(448, 64)
+
+[node name="Pin10" parent="Pins/Row1" unique_id=1768000793 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(640, 64)
+
+[node name="Pin11" parent="Pins/Row1" unique_id=591959679 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(704, 64)
+
+[node name="Pin13" parent="Pins/Row1" unique_id=1090361972 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(960, 64)
+
+[node name="Pin14" parent="Pins/Row1" unique_id=1974433955 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(896, 64)
+
+[node name="Pin15" parent="Pins/Row1" unique_id=824936916 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(832, 64)
+
+[node name="Pin16" parent="Pins/Row1" unique_id=1822023642 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(1024, 64)
+
+[node name="Pin17" parent="Pins/Row1" unique_id=1634285191 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(1088, 64)
+
+[node name="Pin12" parent="Pins/Row1" unique_id=1776104696 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(768, 64)
+
+[node name="Pin6" parent="Pins/Row1" unique_id=1186550053 groups=["Pins"] instance=ExtResource("1_0xm2m")]
+position = Vector2(384, 64)
+
+[node name="Node2D" type="Node2D" parent="." unique_id=629578356]
+
+[node name="BottomWall" type="StaticBody2D" parent="Node2D" unique_id=709688021]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Node2D/BottomWall" unique_id=856442845]
+position = Vector2(576, 644)
+shape = SubResource("RectangleShape2D_lquwl")
+
+[node name="RightWall" type="StaticBody2D" parent="Node2D" unique_id=91763198]
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Node2D/RightWall" unique_id=673539079]
+position = Vector2(0, 328)
+shape = SubResource("RectangleShape2D_1bvp3")
+
+[node name="LeftWall" type="StaticBody2D" parent="Node2D" unique_id=1651115680]
+position = Vector2(1152, 32)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Node2D/LeftWall" unique_id=1002216854]
+position = Vector2(0, 322.5)
+shape = SubResource("RectangleShape2D_h2yge")
+
+[node name="Aim" type="Sprite2D" parent="." unique_id=1003543591]
+texture = ExtResource("4_1bvp3")

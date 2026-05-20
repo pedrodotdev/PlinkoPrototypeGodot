@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://brkm5udn5pp7j"]
+
+[ext_resource type="Script" uid="uid://n0wikrpf3hre" path="res://pin.gd" id="1_gflbs"]
+[ext_resource type="Texture2D" uid="uid://vojpm6vsj2u3" path="res://assets/sprites/pin.png" id="1_nikp6"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_gflbs"]
+radius = 7.0
+
+[node name="Pin" type="StaticBody2D" unique_id=315524844]
+script = ExtResource("1_gflbs")
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=870862035]
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("1_nikp6")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1780369406]
+shape = SubResource("CircleShape2D_gflbs")
